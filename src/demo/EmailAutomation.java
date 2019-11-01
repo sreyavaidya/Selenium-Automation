@@ -33,7 +33,7 @@ WebElement password = driver.findElement(By.xpath("//*[@id=\"password\"]/div[1]/
 
 wait.until(ExpectedConditions.elementToBeClickable(password));
 
-password.sendKeys("");
+password.sendKeys("Abc123@");
 
 driver.findElement(By.xpath("//*[@id=\"passwordNext\"]/span/span")).click();
 
